@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sitio web personal</title>
+    <meta name="author" content="Johan Ramirez Marin">
+    <meta name="description" content="This is a personal web site, that displays information, proyects and the personal contact of Johan Ramirez Marin">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header, where the name and navigation of the page are -->
+    <header>
+
+        <h2 class="header__h2">Johan Ramirez Marin</h2>
+
+        <nav class="nav_container">
+            <ul class="ul__nav">
+                <li class="nav__item"><a href="#me">Sobre mi</a></li>
+                <li class="nav__item disappear"><a href="#tecnologies">Tecnologias</a></li>
+                <li class="nav__item"><a href="#proyects">Proyectos</a></li>
+                <li class="nav__item"><a href="#contact">Contacto</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <!-- Main of the page, where the main contect of the page is displayed -->
+    <main>
+
+        <!-- First section of the page, where the info of Johan is displayed -->
+        <section id="me" class="about_me">
+            <section class="about_me__basic">
+
+                <!-- Aside that displays related content, the content itself are some questions that Johan answered -->
+                <aside class="about_me__aside">
+
+                    <article class="about_me__question">
+                        <h3>¿Por que decidiste estudiar desarrollo de software?</h3>
+                        <p>Decidi estudiar desarrollo de software porque desde que tengo memoria, me ha encantado todo lo que tiene que ver con la informatica.</p>
+                    </article>
+
+                    <article class="about_me__question">
+                        <h3>¿Cuales son tus motivaciones en la vida?</h3>
+                        <p class="text-left">Mis principales motivaciones son:</p>
+                        <ul class="text-left no-dot">
+                            <li>-Viajar con mi familia por el mundo</li>
+                            <li>-Vivir en otro pais</li>
+                            <li>-Aprender mucho tanto de programacion, como de el idioma ingles</li>
+                        </ul>
+                    </article>
+
+                    <article class="about_me__question">
+                        <h3>¿Cual ha sido la estapa mas dificil de tu vida y porque?</h3>
+                        <p>La etapa mas <strong>dificil</strong> que he vivido fue 2023-2024, donde tuve que esforzarme mucho en la universidad por materias como calculo y matematicas discretas, ademas de que a la par estaba terminando mi curso de C1 en ingles.
+                        </p>
+                    </article>
+
+                </aside>
+
+                <!-- This article displays the main info about Johan -->
+                <article class="about_me__article">
+                    <img src="assets/images/foto.jpg" alt="" class="about_me__img">
+                    <h2>¿Quien soy?</h2>
+                    <p>Hola, mi nombre es Johan Ramirez Marin, actualmente me encuentro ampliando mis conocimientos tanto en el desarrollo web, como en el idioma ingles. Actualmente voy en el quinto semestre de Ingenieria de Sistemas e informatica de la UNAL Med y tambien soy un coder de riwi.
+                    Soy una persona que aprende rapido, y siempre trato de ayudar a los demas.
+                    </p>
+                </article>
+
+            </section>
+
+            <!-- Section of tecnologies -->
+            <section class="tecnologies" id="tecnologies">
+
+                <h2>Tecnologias</h2>
+                <div class="tecnologies_container">
+
+                    <figure class="tecnologies__item">
+                        <img src="assets/images/html.png" alt="" class="tecnologies__img">
+                        <figcaption>HTML5</figcaption>
+                    </figure>
+
+                    <figure class="tecnologies__item">
+                        <img src="assets/images/css.png" alt="" class="tecnologies__img tecnologies__img--css">
+                        <figcaption>CSS3</figcaption>
+                    </figure>
+
+                    <figure class="tecnologies__item">
+                        <img src="assets/images/java.png" alt="" class="tecnologies__img">
+                        <figcaption>Java</figcaption>
+                    </figure>
+
+                    <figure class="tecnologies__item">
+                        <img src="assets/images/python.png" alt="" class="tecnologies__img">
+                        <figcaption>Python</figcaption>
+                    </figure>
+
+                    <figure class="tecnologies__item">
+                        <img src="assets/images/c.png" alt="" class="tecnologies__img tecnologies__img--c">
+                        <figcaption>C</figcaption>
+                    </figure>
+
+                    <figure class="tecnologies__item">
+                        <img src="assets/images/javascript.png" alt="" class="tecnologies__img tecnologies__img--javascript">
+                        <figcaption>Javascript</figcaption>
+                    </figure>
+
+                </div>
+            </section>
+        </section>
+
+        <!-- Section of proyects, which are the proyects that Johan has made so far in riwi -->
+
+        <section id="proyects">
+            <h2>Proyectos</h2>
+
+            <!-- Grid container -->
+            <div class="grid">
+
+                <div class="proyect">
+                    <h3>Login</h3>
+                    <img src="assets/images/login.png" alt="">
+                    <p>Sistema de login basico</p>
+                    <a href="https://johan192004.github.io/login/" target="_blank"><button class="proyect__button">Ver</button></a>
+                </div>
+
+                <div class="proyect">
+                    <h3>Pizza</h3>
+                    <img src="assets/images/pizza.png" alt="">
+                    <p>Pagina de pizza multiseccion</p>
+                    <a href="https://johan192004.github.io/actividad-html-semantico/" target="_blank"><button class="proyect__button">Ver</button></a>
+                </div>
+
+                <div class="proyect">
+                    <h3>Cards responsive</h3>
+                    <img src="assets/images/cards.png" alt="">
+                    <p>Pagina con cards responsive</p>
+                    <a href="https://johan192004.github.io/cards_responsive/" target="_blank"><button class="proyect__button">Ver</button></a>
+                </div>
+
+                <div class="proyect">
+                    <h3>Ferria</h3>
+                    <img src="assets/images/ferria.png" alt="">
+                    <p>Pagina de ferria de barrio multiseccion</p>
+                    <a href="https://johan192004.github.io/feria_de_barrio/" target="_blank"><button class="proyect__button">Ver</button></a>
+                </div>
+
+                <div class="proyect">
+                    <h3>Alkosto</h3>
+                    <img src="assets/images/alkosto.png" alt="">
+                    <p>Pagina replica de alkosto</p>
+                    <a href="https://johan192004.github.io/simulacro_modulo_2/" target="_blank"><button class="proyect__button">Ver</button></a>
+                </div>
+
+            </div>
+            
+        </section>
+
+        <!-- The contact section, which contains a form in case the user desired to contact Johan -->
+        <section class="contact" id="contact">
+            <fieldset class="fieldset">
+                <legend>Formulario de contacto</legend>
+                <form action="" method="post" class="form">
+                    <input type="text" placeholder="Nombre" required class="form__item">
+                    <input type="email" placeholder="Correo electronico" required class="form__item">
+                    <input type="number" maxlength="10" placeholder="Numero de telefono" class="form__item">
+                    <textarea name="" id="" placeholder="Mensaje" class="form__item"></textarea>
+                    <input type="submit" name="" id="" class="form__button">
+                </form>
+            </fieldset>
+        </section>
+
+    </main>
+
+
+    <!-- Footer of the page that contains the social media of Johan -->
+    <footer>
+
+        <div class="social_media">
+            <h2>Redes sociales</h2>
+            <ul class="social__ul no-dot">
+                <li class="social__li"><a href="">Facebook</a></li>
+                <li class="social__li"><a href="">X</a></li>
+                <li class="social__li"><a href="">Instagram</a></li>
+                <li class="social__li"><a href="">Github</a></li>
+            </ul>
+        </div>
+
+    </footer>
+
+</body>
+</html>
